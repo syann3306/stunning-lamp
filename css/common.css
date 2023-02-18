@@ -140,6 +140,10 @@ img {
 }
 
 @media (max-width: 580px) {
+  body {
+    background: url("../img/bg-m.jpg") no-repeat center center fixed;
+  }
+
   .title-md {
     font-size: 40px;
   }
