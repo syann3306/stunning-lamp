@@ -1,0 +1,95 @@
+/* 컨테이너 추가 */
+.resultCont {
+  max-width: 980px;
+  width: 70vw;
+  margin-left: auto;
+  margin-right: auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 64px 64px 96px;
+  gap: 56px;
+  border-radius: 44px;
+  box-shadow: 0px 32px 100px -18px rgba(0, 0, 0, 0.32);
+  background-color: #FFFBF2;
+}
+
+.title-wrap {
+  display: block;
+}
+
+.myMbti {
+  margin-top: 16px;
+}
+
+#animal {
+  width: 320px;
+  height: 320px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 44px;
+  margin-top: -48px;
+}
+
+.result {
+  max-width: 600px;
+}
+
+/* 특징박스 수정 */
+.result .box {
+  font-family: 'noto sans kr';
+  min-height: 70px;
+  margin-bottom: 15px;
+  padding: 30px 56px;
+  background: rgba(0, 0, 0, 0.04);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.btns {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media (max-width:580px) {
+  body {
+    padding-top: 32px;
+  }
+  .resultCont {
+    padding: 40px 24px 96px;
+    width: 90vw;
+  }
+
+  .title-md {
+    font-size: 32px;
+  }
+
+  .myMbti {
+    font-size: 64px;
+    margin-bottom: -32px;
+  }
+
+  #animal {
+    width: 80%;
+    height: 0;
+    padding-bottom: 80%;
+    position: relative;
+    margin: 0 16px;
+  }
+
+  .result .box {
+    padding: 20px 40px;
+    font-size: 22px;
+  }
+  .btns {
+    margin-top: -24px;
+  }
+}

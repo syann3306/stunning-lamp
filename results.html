@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>동물로 알아보는 MBTI 찾기!</title>
+
+  <link rel="icon" href="favicon.png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+  <link rel="stylesheet" as="style" crossorigin
+    href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/variable/pretendardvariable-dynamic-subset.css" />
+  <link rel="stylesheet" href="./css/common.css">
+  <link rel="stylesheet" href="./css/results.css">
+  <script defer src="./js/share.js"></script>
+  <script type="module" defer src="./js/results.js"></script>
+</head>
+
+<body>
+  <!-- 컨테이너 div 추가 -->
+  <div class="resultCont">
+    <div class="title-wrap">
+      <h2 class="title-md black">
+        나와 어울리는 동물은?</h2>
+      <h1 class="myMbti"></h1>
+    </div>
+    <!-- 동물이미지 div -->
+    <div id="animal" alt="Animal"></div>
+    <div class="result black">
+      <div class="box"></div>
+      <div class="box"></div>
+    </div>
+
+    <div class="btns">
+      <div class="btn btn-purple btn-small share-or-copy">
+        결과 공유하기
+      </div>
+      <a href="/" class="btn btn-gray btn-small">
+        다시 테스트하기
+      </a>
+    </div>
+  </div>
+</body>
+
+</html>
